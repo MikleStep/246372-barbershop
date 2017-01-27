@@ -1,0 +1,110 @@
+@font-face{
+  font-family: PTSans;
+  src: url(fonts/PTSans.ttf);
+}
+html{
+  font-family: PTSans;
+  text-transform: uppercase;
+}
+
+a{
+  text-decoration: none;
+  color:#000000;
+}
+
+li{
+  list-style-type: none;
+}
+
+ul{
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.main-header {
+  font-size: 16px;
+  color:white;
+  font-family: PTSans;
+  line-height: 20px;
+
+  background-color:#000000; 
+}
+
+.main-header a{
+  color:white;
+}
+
+h1{
+  font-size: 30px;
+  color:#000000;
+  line-height: 42px;
+}
+
+.breadcrumbs li{
+  font-size: 14px;
+  line-height: 20px
+}
+
+.breadcrumbs li:last-child a{
+  color: #aba9a7;
+}
+
+.categories{
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.categories-title{
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.catalog-item p{
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: none
+}
+
+.buy-btn{
+  background-color: #000000;
+}
+
+.buy-btn a{
+  font-size: 14px;
+  color:  #ffffff;
+  line-height: 18px;
+}
+
+.catalog-btns{
+  background-color: #000000;
+}
+
+.catalog-btns a{
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 18px;
+}
+
+.item-article{
+  color: #aeaeae;
+}
+
+.set li{
+  list-style-type: disc;
+}
+
+.footer{
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 24px;
+
+  background-image: url(../img/footer-fon.png);
+}
+
+.footer a{
+  color:#ffffff;
+}
+
+html{
+  color:#000000;
+}
