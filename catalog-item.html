@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Барбершоп: набор для путшествия</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic">
+    <link rel="stylesheet" href="css/normalize.css">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
@@ -26,53 +28,61 @@
       </div>
     </header>
 
-    <main class="container">
-      <h1 class="main-title">Набор для путешествий "Baxter of california"</h1>
-      <div class="breadcrumbs">
-        <ul>
-          <li><a href="#">Главная</a></li>
-          <li><a href="#">Прайс-лист</a></li>
-          <li><a href="#">Средства для ухода</a></li>
-          <li><a href="#">Набор для путешествий "Baxter of california"</a></li>
-        </ul>
-      </div>
-      <div class="main-page">
-        <div class="item-gallery">
-          <img src="img/product9.jpg" alt="Набор для путешествий Baxter of california">
-          <img src="img/product7.jpg" alt="Набор для путешествий Baxter of california">
-          <img src="img/product8.jpg" alt="Набор для путешествий Baxter of california">
-          <img src="img/product10.jpg" alt="Набор для путешествий Baxter of california">
+    <main>
+      <div class="container">
+        <h1 class="main-title">Набор для путешествий "Baxter of california"</h1>
+        <div class="breadcrumbs">
+          <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Прайс-лист</a></li>
+            <li><a href="#">Средства для ухода</a></li>
+            <li><a href="#">Набор для путешествий "Baxter of california"</a></li>
+          </ul>
         </div>
-        <div class="information">
-          <div class="information-up">
-            <div class="information-title">
-              <p>Есть в наличии</p>
+        <div class="main-page">
+          <div class="items-gallery">
+            <div class="item-gallery1">
+              <img  src="img/product9.jpg" alt="Набор для путешествий Baxter of california">
             </div>
-            <div class="item-article">
-              <p>Артикул: Dexter-AE</p>
+            <div class="item-gallery">
+              <img class="item-gallery" src="img/product7.jpg" alt="Набор для путешествий Baxter of california">
             </div>
-            <div class="product-info">
-              <p>Travel Kit – необходимый аксессуар во время любого путешествия. 
-              В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: 
-              средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. 
-              Набор также может стать отличным подарком.</p>
+            <div class="item-gallery">
+              <img class="item-gallery" src="img/product8.jpg" alt="Набор для путешествий Baxter of california">
             </div>
-            <div class="price">
-              <p>2 900 руб.</p>
-            </div>
-            <div class="buy-btn">
-              <a href="#">Купить</a>
+            <div class="item-gallery">
+              <img class="item-gallery" src="img/product10.jpg" alt="Набор для путешествий Baxter of california">
             </div>
           </div>
-          <div class="information-down">
-            <h2>В набор входит:</h2>
-            <ul class="set">
-              <li><p>Средство для умывания(50мл)</p></li>
-              <li><p>Увлажняющий крем(50мл)</p></li>
-              <li><p>Крем для бритья(50мл)</p></li>
-              <li><p>Крем после бритья, шампунь(50мл)</p></li>
-              <li><p>Удобная кожаная косметичка</p></li>
-            </ul>
+          <div class="information">
+            <div class="information-up">
+              <div class="information-title">
+                <p>Есть в наличии</p>
+              </div>
+              <div class="item-article">
+                <p>Артикул: Dexter-AE</p>
+              </div>
+              <div class="product-info">
+                <p>Travel Kit – необходимый аксессуар во время любого путешествия. 
+                В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: 
+                средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. 
+                Набор также может стать отличным подарком.</p>
+              </div>
+              <div class="price">
+                <p>2 900 руб.</p>
+              </div>
+              <a class="buy-btn" href="#">Купить</a>
+            </div>
+            <div class="information-down">
+              <h2>В набор входит:</h2>
+              <ul class="set">
+                <li><p>Средство для умывания(50мл)</p></li>
+                <li><p>Увлажняющий крем(50мл)</p></li>
+                <li><p>Крем для бритья(50мл)</p></li>
+                <li><p>Крем после бритья, шампунь(50мл)</p></li>
+                <li><p>Удобная кожаная косметичка</p></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -84,18 +94,18 @@
           <div class="footer-contacts">
             <p>Барбершоп «Бородинский»<br>
               Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-            <a href="#" style="text-decoration: underline;">Как нас найти?</a><br>
+            <a class="footer-find" href="#">Как нас найти?</a><br>
             <a href="tel:+78126660266">Телефон: +7 (812) 666-02-66</a></p>
           </div>
           <div class="footer-social">
             <p>Давайте дружить!</p>
-            <a class="social-btn social-btn-vk" href="#"><img src="img/v.jpg"></a>
-            <a class="social-btn social-btn-fb" href="#"><img src="img/f.jpg"></a>
-            <a class="social-btn social-btn-inst" href="#"><img src="img/ins.jpg"></a>
+            <a class="social-btn social-btn-vk" href="#"></a>
+            <a class="social-btn social-btn-fb" href="#"></a>
+            <a class="social-btn social-btn-inst" href="#"></a>
           </div>
           <div class="footer-copyright">
             <p>Разработано:</p>
-            <a class="copyright-btn" href="#"><img src="img/htmlacademy.png"></a>
+            <a class="copyright-btn" href="#">Html Academy</a>
           </div>
         </div>
       </div>
