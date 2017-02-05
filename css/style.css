@@ -358,7 +358,7 @@ main{
 .main-page{
   width: 940px;
   min-height: 720px;
-  margin-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 .items-gallery{
